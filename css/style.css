@@ -5,9 +5,8 @@
   box-sizing: border-box;
 }
 
-/* Debug */
-.debug {
-  background-color: lightgray;
+html {
+  scroll-behavior: smooth;
 }
 
 /* Header */
@@ -41,4 +40,21 @@
   background-color: white;
   border-radius: 50%;
   padding: 10px 15px;
+}
+
+/* Main */
+section {
+  height: 100vh;
+}
+
+#red {
+  background-color: red;
+}
+
+#green {
+  background-color: green;
+}
+
+#yellow {
+  background-color: yellow;
 }
