@@ -1,0 +1,35 @@
+/* Product Section */
+.product-section {
+  height: 100vh;
+  position: relative;
+}
+
+.product-section--bg-red {
+  background-color: red;
+}
+
+.product-section--bg-green {
+  background-color: green;
+}
+
+.product-section--bg-yellow {
+  background-color: yellow;
+}
+
+.product-section__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.product-section__container-motto {
+  text-transform: uppercase;
+  color: yellow;
+  font-size: 50px;
+}
+
+.product-section__container-motto--green {
+  color: green;
+}
