@@ -16,7 +16,7 @@
   background-color: yellow;
 }
 
-.product-section__container {
+.product-section__wrapper {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -24,12 +24,12 @@
   text-align: center;
 }
 
-.product-section__container-motto {
+.product-section__motto {
   text-transform: uppercase;
   color: yellow;
   font-size: 50px;
 }
 
-.product-section__container-motto--green {
+.product-section__motto--green {
   color: green;
 }
