@@ -4,3 +4,41 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Debug */
+.debug {
+  background-color: lightgray;
+}
+
+/* Header */
+.main-nav,
+.main-nav ul li {
+  display: inline-block;
+}
+
+.main-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: right;
+  z-index: 999;
+}
+
+.main-nav ul li {
+  margin: 40px 20px 0 0;
+}
+
+.main-nav ul li:last-child {
+  margin-right: 40px;
+}
+
+.main-nav ul li a {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px 15px;
+}
