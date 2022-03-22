@@ -9,6 +9,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Header */
 .main-nav,
 .main-nav ul li {
@@ -45,6 +49,7 @@ html {
 /* Main */
 section {
   height: 100vh;
+  position: relative;
 }
 
 #red {
@@ -57,4 +62,22 @@ section {
 
 #yellow {
   background-color: yellow;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.box h1 {
+  text-transform: uppercase;
+  color: yellow;
+  font-size: 50px;
+}
+
+#yellow .box h1 {
+  color: green;
 }
