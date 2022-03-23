@@ -1,6 +1,7 @@
 /* Navigation */
 .main-nav,
-.main-nav__menu-item {
+.main-nav__menu-item,
+.main-nav__menu-item-link {
   display: inline-block;
 }
 
@@ -16,7 +17,6 @@
 .main-nav__menu-item {
   margin: 40px 20px 0 0;
   transition: transform 0.4s;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 24px;
 }
 
 .main-nav__menu-item:last-child {
@@ -34,5 +34,9 @@
   color: inherit;
   background-color: white;
   border-radius: 50%;
-  padding: 10px 15px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 24px;
 }
